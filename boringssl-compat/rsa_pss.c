@@ -16,7 +16,7 @@
 
 #include <openssl/rsa.h>
 
-int RSA_verify_PKCS1_PSS(RSA *rsa,
+int RSA_verify_PKCS1_PSS(const RSA *rsa,
 			 const unsigned char *mHash,
 			 const EVP_MD *Hash,
 			 const unsigned char *EM,
