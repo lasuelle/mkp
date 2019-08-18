@@ -41,7 +41,6 @@ LOCAL_MODULE := libgps.utils
 LOCAL_MODULE_OWNER := qcom
 LOCAL_VENDOR_MODULE := true
 
-LOCAL_MODULE_TAGS := optional
 
 include $(BUILD_SHARED_LIBRARY)
 

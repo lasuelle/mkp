@@ -25,7 +25,6 @@ endif
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_SRC_FILES := power.c
 LOCAL_SHARED_LIBRARIES := liblog libcutils
-LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := power.msm8974
 LOCAL_VENDOR_MODULE := true
 include $(BUILD_SHARED_LIBRARY)
